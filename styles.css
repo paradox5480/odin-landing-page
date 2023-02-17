@@ -1,6 +1,7 @@
 /* Apply some basic styles to the body element */
 body {
   font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: #333;
 }
