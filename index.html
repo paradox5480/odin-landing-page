@@ -10,14 +10,19 @@
         box-sizing: border-box;
       }
       
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+      /* Set the background color of the body */
+      body {
+        background-color: #1F2937;
       }
       
+      /* Set the font family, line height, and text color for the entire page */
+      body {
+        font-family: 'Noto Serif', serif;
+        line-height: 1.5;
+        color: #333;
+      }
+      
+      /* Style the header element */
       .header {
         display: flex;
         justify-content: space-between;
@@ -28,12 +33,7 @@
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
       }
       
-      .nav {
-        display: flex;
-        list-style: none;
-      }
-      
-      /* Style the links in the navigation menu */
+      /* Style the navigation menu links */
       .nav li a {
         display: block;
         padding: 1rem;
@@ -41,11 +41,17 @@
         color: #333;
       }
       
+      /* Change the color of the navigation menu links when hovered */
+      .nav li a:hover {
+        color: #666;
+      }
+      
       /* Add some spacing between the links in the navigation menu */
       .nav li + li {
         margin-left: 1rem;
       }
       
+      /* Style the main content section */
       .main {
         display: flex;
         flex-direction: column;
@@ -55,14 +61,21 @@
         padding: 2rem;
       }
       
+      /* Style the main content section heading */
       .main h1 {
         font-size: 3rem;
         margin-bottom: 1rem;
+        color: #F9FAF8;
+        font-weight: bold;
+        text-align: center;
       }
       
+      /* Style the main content section paragraph text */
       .main p {
         font-size: 1.5rem;
         margin-bottom: 2rem;
+        color: #E5E7EB;
+        text-align: center;
       }
       
       /* Create a footer for the page */
@@ -80,6 +93,8 @@
       .footer p {
         font-size: 1rem;
         color: #666;
+        text-align: center;
+        margin: 0;
       }
       
     </style>
