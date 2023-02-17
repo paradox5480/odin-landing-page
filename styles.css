@@ -1,7 +1,6 @@
 /* Apply some basic styles to the body element */
 body {
-  font-family: 'Noto Serif', serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; /* this won't let me add the roboto font and it's frustrating me*/
   line-height: 1.5;
   color: #333;
 }
