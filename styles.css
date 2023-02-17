@@ -3,7 +3,6 @@ body {
     font-family: 'Noto Serif', serif;
     line-height: 1.5;
     color: #333;
-    background-color: #1F2937;
   }
   
   /* Style the header element */
@@ -35,3 +34,6 @@ body {
     margin: 0;
   }
   
+  .main, .footer {
+    background-color: #1F2937;
+  }
